@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monitoring your progress</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+</head>
+<body>
+
+    <section class="section user-profile">
+
+        <div class="user-profile__wrapper">
+            <div class="user-profile__wrapper-photo">
+                <img class="user-profile__photo" src="picture/avatar.webp" alt="Фотография пользователя">
+            </div>
+    
+            <h3 class="user-profile__user-name">
+                <span class="user-profile__name">Василиса</span>
+                <span class="user-profile__sername">Петрова</span>
+            </h3>
+        </div>
+
+
+
+        <button class="user-profile__burger-bars">
+            <img class="user-profile__burger-bars-svg" src="./picture/burger-bars.svg">
+        </button>
+        
+    </section>
+
+    <main class="main-container">
+
+        <nav class="navig-menu-mobile">
+            <ul class="navig-menu-mobile__wrapper">
+                <li class="navig-menu-mobile__item navig-menu-mobile__employee-statistics">Мониторинг твоих успехов</li>
+                <li class="navig-menu-mobile__item navig-menu-mobile__create-news">Создать новость</li>
+                <li class="navig-menu-mobile__item navig-menu-mobile__create-event">Создать событие</li>
+            </ul>
+        </nav>
+
+        <section class="section news-list">
+
+            <!-- Заголовок секции -->
+            <h3 class="news-list__section-title">Коротко</h3>
+    
+            <!-- Список новостей -->
+            <ul class="news-list__list-wrapper">
+    
+                <!-- Новость/событие -->
+                <li class="news-list__list-item">
+                    <!-- Обертка события для позиционирования в /li -->
+                    <article class="news-list__news-item">
+                        <h4 class="news-list__title">НОВИНКА! Прибор для профилактики акне и омоложения кожи лица Yamaguchi Plasma Skin Care</h4>
+                        <img class="news-list__photo" src="picture/plasma-skin-short-news.webp" alt="Новость">
+                        <button class="news-list__button">Читать полностью</button>
+                        <footer class="news-list__footer">
+                            <time class="news-list__time">31.01.2024 16:44</time>
+                            <p class="news-list__author">Юлия Рогачёва</p>
+                        </footer>
+                    </article>
+    
+                </li>
+
+                <!-- Новость/событие -->
+                <li class="news-list__list-item">
+                    <!-- Обертка события для позиционирования в /li -->
+                    <article class="news-list__news-item">
+                        <h4 class="news-list__title">НОВИНКА! Прибор для профилактики акне и омоложения кожи лица Yamaguchi Plasma Skin Care</h4>
+                        <!-- <img class="news-list__photo" src="picture/plasma-skin-short-news.webp" alt="Новость"> -->
+                        <button class="news-list__button">Читать полностью</button>
+                        <footer class="news-list__footer">
+                            <time class="news-list__time">31.01.2024 16:44</time>
+                            <p class="news-list__author">Юлия Рогачёва</p>
+                        </footer>
+                    </article>
+    
+                </li>
+
+                <!-- Новость/событие -->
+                <li class="news-list__list-item">
+                    <!-- Обертка события для позиционирования в /li -->
+                    <article class="news-list__news-item">
+                        <h4 class="news-list__title">НОВИНКА! Прибор для профилактики акне и омоложения кожи лица Yamaguchi Plasma Skin Care</h4>
+                        <!-- <img class="news-list__photo" src="picture/plasma-skin-short-news.webp" alt="Новость"> -->
+                        <button class="news-list__button">Читать полностью</button>
+                        <footer class="news-list__footer">
+                            <time class="news-list__time">31.01.2024 16:44</time>
+                            <p class="news-list__author">Юлия Рогачёва</p>
+                        </footer>
+                    </article>
+    
+                </li>
+
+            </ul>
+
+        </section>
+
+        <section class="section list-detailed-news">
+
+            <!-- Заголовок секции -->
+            <h3 class="list-detailed-news__section-title">Подробно</h3>
+
+            <!-- Список новостей -->
+            <ul class="list-detailed-news__list-wrapper">
+                
+                <!-- Новость/событие -->
+                <li class="list-detailed-news__list-item">
+                    <!-- Обертка события для позиционирования в /li -->
+                    <article class="list-detailed-news__news-item">
+
+                        <div class="list-detailed-news__news-content">
+
+                            <!-- Заголовок новости -->
+                            <div class="list-detailed-news__title-wrapper">
+                                <h4 class="list-detailed-news__title">НОВИНКА! Прибор для профилактики акне и омоложения кожи лица Yamaguchi Plasma Skin Care</h4>
+                                
+                                <!-- Кнопка закрытия страницы - только на мобильном -->
+                                <button class="list-detailed-news__return-element list-detailed-news__button-closing">
+                                    <img class="list-detailed-news__closing-icon" src="./picture/closing-icon.svg">
+                                </button>
+                            </div>
+                            
+                            <!-- Обертка для текстового блока -->
+                            <div class="list-detailed-news__content-wrapper">
+                                <p class="list-detailed-news__content list-detailed-news__text">Уважаемые коллеги!</p>
+                                <p class="list-detailed-news__content list-detailed-news__text">В ассортименте компании в категории "Косметологические приборы" появилась уникальная новинка - Прибор для профилактики акне и омоложения кожи лица Yamaguchi Plasma Skin Care!</p>
+                                <p class="list-detailed-news__content list-detailed-news__text">Yamaguchi Plasma Skin Care — инновационный косметический прибор для профилактики акне и омоложения кожи лица, в основе которого лежит принцип плазменной обработки тканей. Воздействие на кожу лица оказывается холодной плазмой</p>
+                                <img class="list-detailed-news__content list-detailed-news__photo" src="picture/plasma-skin-detailed-news.webp" alt="Новость">
+                                <p class="list-detailed-news__content list-detailed-news__text">Yamaguchi Plasma Skin Care — инновационный косметический прибор для профилактики акне и омоложения кожи лица, в основе которого лежит принцип плазменной обработки тканей. Воздействие на кожу лица оказывается холодной плазмой — ионизированным газом низкой температуры (35-40 ℃), образованным под действием высокочастотного электрического тока.</p>
+                            </div>
+
+                            <!-- Обертка для даты и имени -->
+                            <div class="list-detailed-news__info-public">
+                                <time class="list-detailed-news__time">31.01.2024 16:44</time>
+                                <p class="list-detailed-news__author">Юлия Рогачёва</p>
+                            </div>
+                        </div>
+
+                        <button class="list-detailed-news__return-element list-detailed-news__button">Мной прочитано. Подтверждаю</button>
+                        <button class="list-detailed-news__return-element list-detailed-news__return-button">
+                            <img class="list-detailed-news__button-svg" src="./picture/arrow-up.svg">
+                            вернуться
+                        </button>
+
+                    </article>
+                </li>
+
+                <!-- Новость/событие -->
+                <li class="list-detailed-news__list-item">
+                    <!-- Обертка события для позиционирования в /li -->
+                    <article class="list-detailed-news__news-item">
+
+                        <div class="list-detailed-news__news-content">
+
+                            <h4 class="list-detailed-news__title">
+                                НОВИНКА! Прибор для профилактики акне и омоложения кожи лица Yamaguchi Plasma Skin Care
+                                <img class="list-detailed-news__closing-icon" src="./picture/closing-icon.svg">
+                            </h4>
+                            
+                            <!-- Обертка для текстового блока -->
+                            <div class="list-detailed-news__content-wrapper">
+                                <p class="list-detailed-news__content list-detailed-news__text">Уважаемые коллеги!</p>
+                                <p class="list-detailed-news__content list-detailed-news__text">В ассортименте компании в категории "Косметологические приборы" появилась уникальная новинка - Прибор для профилактики акне и омоложения кожи лица Yamaguchi Plasma Skin Care!</p>
+                                <p class="list-detailed-news__content list-detailed-news__text">Yamaguchi Plasma Skin Care — инновационный косметический прибор для профилактики акне и омоложения кожи лица, в основе которого лежит принцип плазменной обработки тканей. Воздействие на кожу лица оказывается холодной плазмой</p>
+                                <!-- <img class="list-detailed-news__content list-detailed-news__photo" src="picture/plasma-skin-detailed-news.webp" alt="Новость"> -->
+                                <p class="list-detailed-news__content list-detailed-news__text">Yamaguchi Plasma Skin Care — инновационный косметический прибор для профилактики акне и омоложения кожи лица, в основе которого лежит принцип плазменной обработки тканей. Воздействие на кожу лица оказывается холодной плазмой — ионизированным газом низкой температуры (35-40 ℃), образованным под действием высокочастотного электрического тока.</p>
+                            </div>
+
+                            <!-- Обертка для даты и имени -->
+                            <div class="list-detailed-news__info-public">
+                                <time class="list-detailed-news__time">31.01.2024 16:44</time>
+                                <p class="list-detailed-news__author">Юлия Рогачёва</p>
+                            </div>
+
+                        </div>
+
+                        <button class="list-detailed-news__button">Мной прочитано. Подтверждаю</button>
+
+                    </article>
+                </li>
+
+            </ul>
+
+        </section>
+
+        <div class="main-container__child">
+            
+            <section class="section employee-statistics">
+
+                <!-- Заголовок новости -->
+                <div class="employee-statistics__title-wrapper">
+                    <h3 class="employee-statistics__section-title">МТУ: Мониторинг твоих успехов</h3>
+                    
+                    <!-- Кнопка закрытия страницы - только на мобильном -->
+                    <button class="employee-statistics__button-closing">
+                        <img class="employee-statistics__closing-icon" src="./picture/closing-icon.svg">
+                    </button>
+                </div>
+
+                <div class="employee-statistics__area-adding-content">
+
+                    <button class="employee-statistics__button employee-statistics__add-contest">
+                        <img class="employee-statistics__svg-add" src="./picture/plus.svg">
+                        конкурс
+                    </button>
+
+                    <button class="employee-statistics__button employee-statistics__add-news">
+                        <img class="employee-statistics__svg-add" src="./picture/plus.svg">
+                        новость
+                    </button>
+
+                </div>
+                
+                <div class="employee-statistics__wrapper-content">
+
+                    <div class="employee-statistics__add-padding">
+                        <!-- Свайпер подключен через CDN -->
+                        <!-- Главаный контейнер слайдера -->
+                        <div class="swiper-container employee-statistics__swiper-content">
+
+                            <!-- Обязательная оболочка -->
+                            <div class="swiper-wrapper employee-statistics__swiper-wrapper">
+
+                                <!-- Слайд 1 -->
+                                <div class="swiper-slide employee-statistics__slide">
+                                    <h4 class="employee-statistics__title-slide">Обалденный конкурс №1</h4>
+                                    <p class="employee-statistics__text-slide">В ассортименте компании в категории "Косметологические приборы" появилась уникальная новинка - Прибор для профилактики акне и омоложения кожи лица Yamaguchi Plasma Skin Care!</p>
+                                </div>
+
+                                <!-- Слайд 2 -->
+                                <div class="swiper-slide employee-statistics__slide">
+                                    <h4 class="employee-statistics__title-slide">Обалденный конкурс №1</h4>
+                                    <p class="employee-statistics__text-slide">В ассортименте компании в категории "Косметологические приборы" появилась уникальная новинка - Прибор для профилактики акне и омоложения кожи лица Yamaguchi Plasma Skin Care!</p>
+                                </div>
+
+                                <!-- Слайд 3 -->
+                                <div class="swiper-slide employee-statistics__slide">
+                                    <h4 class="employee-statistics__title-slide">Обалденный конкурс №1</h4>
+                                    <p class="employee-statistics__text-slide">В ассортименте компании в категории "Косметологические приборы" появилась уникальная новинка - Прибор для профилактики акне и омоложения кожи лица Yamaguchi Plasma Skin Care!</p>
+                                </div>
+
+                            </div>
+                            <!-- <div class="swiper-button-prev"></div>
+                            <div class="swiper-button-next"></div> -->
+                        </div>
+                    </div>
+
+                    <div class="employee-statistics__wrapper-pagination">
+                        <!-- <div class="swiper-button-prev employee-statistics__button-prev"></div>
+                        <div class="swiper-pagination employee-statistics__pagination"></div>
+                        <div class="swiper-button-next employee-statistics__button-next"></div> -->
+
+                        <img class="swiper-button-prev employee-statistics__button-prev" src='./picture/arrow-back.svg'>
+                        <div class="swiper-pagination employee-statistics__pagination"></div>
+                        <img class="swiper-button-next employee-statistics__button-next" src='./picture/arrow-forward.svg'>
+                    </div>
+
+                    <ul class="employee-statistics__list">
+                        <li class="employee-statistics__item">
+                            <span class="employee-statistics__graph">План</span>
+                            <span class="employee-statistics__value">100%</span>
+                        </li>
+                        <li class="employee-statistics__item">
+                            <span class="employee-statistics__graph">Зарплата</span>
+                            <span class="employee-statistics__value">999 999 ₽</span>
+                        </li>
+                        <li class="employee-statistics__item">
+                            <span class="employee-statistics__graph">Через App</span>
+                            <span class="employee-statistics__value">233</span>
+                        </li>
+                        <li class="employee-statistics__item">
+                            <span class="employee-statistics__graph">Зебр по креслам</span>
+                            <span class="employee-statistics__value">2(X) из 33</span>
+                        </li>
+                    </ul>
+
+                    <button class="employee-statistics__return-button">
+                        <img class="employee-statistics__button-svg" src="./picture/arrow-up-white.svg">
+                        вернуться
+                    </button>
+
+                </div>
+
+            </section>
+
+            <div class="main-container__wrapper-creation-windows">
+
+                <section class="section create-news">
+
+                    <div class="create-news__title-wrapper">
+    
+                        <!-- Заголовок секции -->
+                        <h3 class="create-news__section-title">Создать новость</h3>    
+    
+                        <!-- Кнопка закрытия страницы - только на мобильном -->
+                        <button class="create-news__button-closing">
+                            <img class="create-news__closing-icon" src="./picture/closing-icon.svg">
+                        </button>
+    
+                    </div>
+                    
+                    <form class="create-news__form-wrapper">
+                        <input class="create-news__form-input" type="text" placeholder="Введите заголовок новости">
+                        <textarea class="create-news__form-textarea" placeholder="Описание" name="" id="" cols="30" rows="10"></textarea>
+                        <div class="create-news__wrapper-button">
+                            <button class="create-news__button-add-image"><img class="create-news__button-svg" src="./picture/images.svg">изображение</button>
+                            <button class="create-news__news-creation-button">Создать</button>
+                        </div>
+                    </form>
+            
+                </section>
+    
+                <section class="section create-event">
+    
+                    <!-- Заголовок новости -->
+                    <div class="create-event__title-wrapper">
+                        <h3 class="create-event__section-title">Создать конкурс</h3>
+                        
+                        <!-- Кнопка закрытия страницы - только на мобильном -->
+                        <button class="create-event__button-closing">
+                            <img class="create-event__closing-icon" src="./picture/closing-icon.svg">
+                        </button>
+                    </div>
+                    
+                    <form class="create-event__form-wrapper">
+                        <input class="create-event__form-input" type="text" placeholder="Введите заголовок конкурса">
+                        <textarea class="create-event__form-textarea" placeholder="Описание" name="" id="" cols="30" rows="10"></textarea>
+                        <div class="create-event__wrapper-button">
+                            <button class="create-event__button-add-image"><img class="create-news__button-svg" src="./picture/images.svg">изображение</button>
+                            <button class="create-event__news-creation-button">Создать</button>
+                        </div>
+                    </form>
+            
+                </section>
+                
+            </div>
+
+        </div>
+
+
+
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+</html>
